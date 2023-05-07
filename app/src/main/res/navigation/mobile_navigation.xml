@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_newswire">
+
+    <fragment
+        android:id="@+id/nav_login"
+        android:name="com.example.myapplication.ui.login.LoginFragment"
+        android:label="@string/menu_login"
+        tools:layout="@layout/fragment_login" />
+
+    <fragment
+        android:id="@+id/nav_register"
+        android:name="com.example.myapplication.ui.register.RegisterFragment"
+        android:label="@string/menu_register"
+        tools:layout="@layout/fragment_register" />
+
+    <fragment
+        android:id="@+id/nav_newswire"
+        android:name="com.example.myapplication.ui.newswire.NewswireFragment"
+        android:label="@string/menu_newswire"
+        tools:layout="@layout/fragment_newswire" />
+
+    <fragment
+        android:id="@+id/nav_booking"
+        android:name="com.example.myapplication.ui.booking.BookingFragment"
+        android:label="@string/menu_booking"
+        tools:layout="@layout/fragment_booking" />
+
+    <fragment
+        android:id="@+id/nav_rating"
+        android:name="com.example.myapplication.ui.rating.RatingFragment"
+        android:label="@string/menu_rating"
+        tools:layout="@layout/fragment_rating" />
+</navigation>

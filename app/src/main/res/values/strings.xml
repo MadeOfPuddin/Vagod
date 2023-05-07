@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Vágod?</string>
+    <string name="nav_header_title">Vendég</string>
+
+    <string name="menu_login">Bejelentkezés</string>
+    <string name="menu_register">Regisztráció</string>
+    <string name="menu_newswire">Hírfolyam</string>
+    <string name="menu_booking">Időpontfoglalás</string>
+    <string name="menu_rating">Értékelés</string>
+    <string name="menu_logout">Kijelentkezés</string>
+    <!-- Strings related to login -->
+    <string name="prompt_name">Név</string>
+    <string name="prompt_email">Email cím</string>
+    <string name="prompt_password">Jelszó</string>
+    <string name="prompt_confirm_password">Jelszó mégegyszer</string>
+    <string name="action_register">Regisztráció</string>
+    <string name="action_login">Bejelentkezés</string>
+    <string name="action_google_login">Google-bejelentkezés</string>
+    <string name="action_continue">Tovább</string>
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Érvénytelen felhasználónév</string>
+    <string name="invalid_password">A jelszónak 5 karakternél hosszabbnak kell lennie!</string>
+    <string name="login_failed">"Sikertelen bejelentkezés"</string>
+    <string name="login_success">"Sikeres bejelentkezés"</string>
+    <string name="registerPrompt">"Még nem vagy regisztrálva?"</string>
+    <string name="guest">"Vendég"</string>
+    <string name="register_failed">Sikertelen regisztráció</string>
+    <string name="register_success">Sikeres regisztráció</string>
+    <string name="item_placeholder">Tárgy neve</string>
+    <string name="item_desc_placeholder">Tárgy leírása</string>
+</resources>

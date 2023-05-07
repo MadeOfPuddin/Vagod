@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_newswire"
+            android:icon="@drawable/ic_menu_newswire"
+            android:title="@string/menu_newswire" />
+        <item
+            android:id="@+id/nav_login"
+            android:icon="@drawable/ic_menu_login"
+            android:title="@string/menu_login" />
+
+        <item
+            android:id="@+id/nav_booking"
+            android:icon="@drawable/ic_menu_booking"
+            android:title="@string/menu_booking" />
+        <item
+            android:id="@+id/nav_rating"
+            android:icon="@drawable/ic_menu_rating"
+            android:title="@string/menu_rating" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_menu_logout"
+            android:title="@string/menu_logout" />
+    </group>
+</menu>
